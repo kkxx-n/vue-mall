@@ -1,0 +1,45 @@
+{
+	"folders": [
+		{
+			"name": "practive2",
+			"path": "C:\\Users\\爱新觉罗\\Desktop\\practive2"
+		},
+		{
+			"name": "nodeJS",
+			"path": "C:\\Users\\爱新觉罗\\Desktop\\nodeJS"
+		},
+		{
+			"path": "C:\\Users\\爱新觉罗\\Desktop\\action"
+		},
+		{
+			"path": "C:\\Users\\爱新觉罗\\Desktop\\myapp"
+		},
+		{
+			"path": "c:\\Users\\爱新觉罗\\Desktop\\nodeceshi"
+		},
+		{
+			"path": "c:\\Users\\爱新觉罗\\Desktop\\ajax"
+		},
+		{
+			"path": "c:\\Users\\爱新觉罗\\Desktop\\学习"
+		},
+		{
+			"path": "..\\..\\.."
+		},
+		{
+			"path": "c:\\Users\\爱新觉罗\\Desktop\\毕设\\毕业设计\\数字媒体技术-16330320419-倪开心\\综合实训项目\\practive"
+		},
+		{
+			"path": "..\\..\\..\\..\\VS code文件\\page"
+		},
+		{
+			"path": "..\\..\\..\\learnpromise"
+		},
+		{
+			"path": "..\\.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "vue"
+	}
+}

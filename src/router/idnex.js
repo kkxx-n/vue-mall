@@ -8,6 +8,7 @@ const Home = () => import('../views/home/Home.vue')
 const Category = () => import('../views/category/Category.vue')
 const Cart = () => import('../views/cart/Cart.vue')
 const Me = () => import('../views/me/Me.vue')
+const Detail = () => import('../views/detail/Detail.vue')
 
 const routes =[
     {
@@ -30,6 +31,11 @@ const routes =[
       {
         path: '/me',
         component:Me
+      },
+      {
+        // 路由传参 为每个页面确定不同的路由 但是都是选择一样的组件
+        path:'/detail/:iid',
+        component:Detail
       }
 ]
 

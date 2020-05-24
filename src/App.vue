@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <!-- 路由显示文位置 -->
+    <keep-alive exclude="Detail,Cart">
+       <router-view></router-view>
+    </keep-alive>
+   
   <main-tab-bar></main-tab-bar>
   </div>
 </template>

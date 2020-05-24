@@ -7,6 +7,7 @@
       :class="{active:index == currentIndex}"
       @click="itemClick(index)"
     >
+    <!-- :class 动态绑定属性'active' (判断是否为布尔值)对象的方式进行判断  index为item数组的下标  currentIndex默认值为0 -->
       <span>{{ item }}</span>
     </div>
   </div>

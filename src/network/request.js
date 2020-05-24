@@ -1,7 +1,6 @@
+// config  配置
 
-
-// 对axios模块的封装 // config  配置
-
+// 对axios模块的封装 
 import Axios from 'axios';
 
 
@@ -38,9 +37,12 @@ export function request2(config) {
         })
 }
 
+
+// 最终封装结果
 // axios.create创建一个axios实例
-// axios 返回的就是一个promise对象  无
+// axios 返回的就是一个promise对象  
 export function requestPromise(config) {
+    // 配置一个Axios实例
     const instance = Axios.create({
         baseURL: 'http://152.136.185.210:8000/api/n3',
         timeout: 500

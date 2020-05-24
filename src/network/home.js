@@ -1,23 +1,24 @@
 // 封装首页的网络请求
-import {requestPromise} from './request'
+import {
+  requestPromise
+} from './request'
 
 export function getHomeAxios() {
+  return requestPromise({
+    url: '/home/multidata'
+  })
+}
 
-    return requestPromise({
-        url:'/home/multidata'
-    })
-  }
-
-  export function getHomeGoods(type,page) {
-    return requestPromise({
-      url:'/home/data',
-      // params 参数
-      params:{
-        type,
-        page
-      }
-    })
-  }
+export function getHomeGoods(type, page) {
+  return requestPromise({
+    url: '/home/data',
+    // params 参数 执行query语句
+    params: {
+      type,
+      page
+    }
+  })
+}
 
 
 //   函数调用 -> 压入函数栈 （保存函数调用过程中所有变量）
